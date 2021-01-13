@@ -2,17 +2,17 @@
 title: Contato
 permalink: 'CONTATO'
 menu: true
-email:
-whatsapp:
+email: csa@csanossahorta.com
+whatsapp: 31 99979 8679
+whatsapp-link: https://wa.me/5531999798679
 layout: 'contato'
 ---
 
 # fale com a gente!
-<br>
 
 ---
 
-<br>
+
 
 
 #### Envie uma mensagem por email ou whastapp: 

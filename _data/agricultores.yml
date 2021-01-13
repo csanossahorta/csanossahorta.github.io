@@ -1,65 +1,19 @@
-# fotos de capa
-- indice: 1
+# Logos | Parceiros
+- name: Edson Pinto
   column: 1
   order: 1
-  name: pontos-cegos
-  title: Pontos Cegos
-  title-en: Blind Points
+  retrato: retrato_edson
+  url: edson
   
-- indice: 2
+- name: Lucas Souza
   column: 1
   order: 2
-  name: matilha
-  title: matilha
-  title-en: matilha
+  retrato: retrato_lsouza
+  url: lucas-souza
   
-- indice: 3
+- name: Lucas Machado
   column: 1
   order: 3
-  name: mutt-dogs
-  title: Mutt Dogs
-  title-en: Mutt Dogs
-  
-- indice: 4
-  column: 2
-  order: 1
-  name: especies-de-espacos-2
-  title: Espécies de Espaços 2
-  title-en: Species of Spaces 2
-
-- indice: 5
-  column: 2
-  order: 2
-  name: especies-de-espacos-1
-  title: Espécies de Espaços 1
-  title-en: Species of Spaces 1
-
-- indice: 6
-  column: 2
-  order: 3
-  name: especies-de-espacos-3
-  title: Espécies de Espaços 3
-  title-en: Species of Spaces 3
-    
-- indice: 7
-  column: 3
-  order: 1
-  name: natal
-  title: Natal
-  title-en: Christmas
-
-- indice: 8
-  column: 3
-  order: 2
-  name: antonimos
-  title: Máquina de Antônimos
-  title-en: Antonimous Machine
-
-- indice: 9
-  column: 3
-  order: 3
-  name: radio-mondial
-  title: Radio Mondial
-  title-en: Radio Mondial
-
-
+  retrato: retrato_lmachado
+  url: lucas-machado
+ 

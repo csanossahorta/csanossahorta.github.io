@@ -12,9 +12,8 @@ facebook: https://www.facebook.com/ProjetoVistaAlegre/
     
 <br><br>
 
-Ravena, Sabará, é o distrito onde fica a Horta Fazendo Pinto, onde o Edson e  saem os produtos que fazem parte das cestas semanais da CSA.
-  
-Edson teve contato mais direto com a horta quando fez tratamento contra a dependência química, na Fazenda Esperança, entre 2008 e 2009. Essa é uma questão que tanto ele, quanto a sua mãe, **Dona Toninha** fazem questão de encarar de frente.
+A fazenda Vista Alegre, em Capim Branco, é o refúgio semanal da família Castro Alves de Sousa há cerca de 30 anos. Foi lá também que surgiu o Projeto Vista Alegre, a partir do feliz encontro entre o agrônomo Lucas Sousa e o agricultor familiar Marcone Xavier. Juntos, eles lideram a produção de orgânicos certificados pelo IMA (Instituto Mineiro de Agropecuária).
+
 
 ![]({{ site.baseurl }}/images/vistaalegre1.png)
 
@@ -22,7 +21,7 @@ Edson teve contato mais direto com a horta quando fez tratamento contra a depend
 ![]({{ site.baseurl }}/images/vistaalegre2.png)
 
   
-Os dois contam com o suporte dos demais membros da família e da CSA Nossa Horta para seguir aprimorando as técnicas de plantio, melhorando a qualidade do solo, diversificando as espécies cultivadas, plantando árvores e enviando, semanalmente, as cestas para os coprodutores da CSA Nossa Horta.
+Além de produzir uma grande diversidade de hortaliças orgânicas in natura, o Projeto Vista Alegre também cria galinhas a céu aberto e beneficia uma série de produtos, com destaque para o fubá - fruto do resgate de sementes tradicionais de milho crioulo.
   
 ![]({{ site.baseurl }}/images/vistaalegre3.png)
   

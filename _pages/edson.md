@@ -1,5 +1,5 @@
 ---
-title: Edson
+title: Edson Pinto
 where: Horta Fazenda Pinto
 permalink: edson
 cover: images/edson.png

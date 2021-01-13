@@ -5,7 +5,7 @@
     {% include meta.html %}
 </head>
     
-<body>
+<body scroll="no" id="contato-nav">
 <!-- =========================
      PRE LOADER       
 <div class="preloader">
@@ -31,7 +31,17 @@
 	<div class="contato-box">
 		<div class="row">
 			 <div class="contato">
+                 <br>
                 {{ content }}
+                <br>
+                <div class="row_img">
+                     <div class="column_logo">
+                         <a href="mailto:{{ page.email }}"  target="_blank"><i class="fa fa-envelope"></i>&nbsp;{{ page.email }}</a>
+                     </div>
+                     <div class="column_logo">
+                         <a href="{{ page.whatsapp-link }}" target="_blank"><i class="fa fa-whatsapp"></i>&nbsp; {{ page.whatsapp }}</a>
+                     </div>
+                </div>
 		    </div>
 		</div>
 	</div>
@@ -47,10 +57,10 @@
          <div class="column_logo">
          </div>
          <div class="column_logo">
-             <a href="mailto:csa@csanossahorta.com"  target="_blank"><i class="fa fa-envelope"></i>&nbsp; csa@csanossahorta.com</a>
+             <a href="mailto:{{ page.email }}"  target="_blank"><i class="fa fa-envelope"></i>&nbsp;{{ page.email }}</a>
          </div>
          <div class="column_logo">
-             <a href="https://wa.me/5531999798679" target="_blank"><i class="fa fa-whatsapp"></i>&nbsp; 31 99979 8679</a>
+             <a href="{{ page.whatsapp-link }}" target="_blank"><i class="fa fa-whatsapp"></i>&nbsp; {{ page.whatsapp }}</a>
          </div>
          <div class="column_logo">
          </div>

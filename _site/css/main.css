@@ -189,7 +189,7 @@ hr{
     width: 80% !important;
     top: 100% !important;
     bottom: 0% !important;
-    border: 1px solid #616129 !important;
+    border: 0.5px solid #616129 !important;
 }
 
 .btn {
@@ -571,6 +571,15 @@ hr{
     color: #616129 !important;
 }
 
+#contato hr{
+    width: 50% !important;
+    top: 100% !important;
+    bottom: 0% !important;
+    border: 1px solid #616129 !important;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
 .contato-box{
     height: 40%;
     width: 50%;
@@ -582,6 +591,15 @@ hr{
     align-content: center;
 }
 
+@media (min-width: 768px){
+#contato-nav .custom-navbar {
+    padding: 20px 0;
+    border-bottom: 0;
+    background: 0 1 !important;
+}
+#contato-nav{  
+    background-color:#E25D25 !important;
+}
 
 /*---------------------------------------
    Botoes section              
@@ -1109,15 +1127,36 @@ footer {
   min-width: 25% !important;
   vertical-align: middle !important;
 }
-
+.column_logo a {
+  font-weight: 400;
+  color: #616129;
+}
+.column_logo i {
+  color: #E25D25 !important;
+}
+    
+.column_logo a:hover {
+  font-weight: 400;
+  color: #E25D25;
+}   
+    
+#footer .column_logo i {
+  color: white !important;
+}
+    
+#footer .column_logo a:hover {
+  color: #616129 !important;
+}    
+    
 .column_logo img {
   margin-bottom: 20% !important;
   vertical-align: middle !important;
-  height: 10% !important;
   display: block;
   padding-bottom: 0px !important;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  vertical-align: center;
 }
 
 
