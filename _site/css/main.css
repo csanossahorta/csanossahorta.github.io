@@ -506,18 +506,31 @@ hr{
 }
 
 #como-funcionamos  h4 {
+    width: 80%;
     text-align: center;
     font-size: 28px;
     line-height: 29px;
     font-size: 26px !important;
     left: 5%;
     color: white !important;
-    padding-top: 35%;
-    padding-left: 40%;
+    margin-top: 0px !important;
+}
+
+
+#como-funcionamos  h5 {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 29px;
+    font-size: 10px !important;
+    left: 5%;
+    color:#E25D25 !important;
+    margin-top: 0px !important;
+    margin-right: 1.67em; !important;
 }
 
 #como-funcionamos  h1 {
-    width: 90%;
+    width: 100%;
     font-size: 18px;
     line-height: 29px;
     font-size: 30px !important;

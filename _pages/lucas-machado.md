@@ -12,19 +12,19 @@ facebook: https://www.facebook.com/sitiodasmangueirasagroecologia
     
 <br><br>
     
-Ravena, Sabará, é o distrito onde fica a Horta Fazendo Pinto, onde o Edson e  saem os produtos que fazem parte das cestas semanais da CSA.
+Lucas Faria Machado há anos pratica e ensina técnicas de cultivos agroflorestais, e compartilha essa experiência com os demais produtores da CSA Nossa Horta.
   
-Edson teve contato mais direto com a horta quando fez tratamento contra a dependência química, na Fazenda Esperança, entre 2008 e 2009. Essa é uma questão que tanto ele, quanto a sua mãe, **Dona Toninha** fazem questão de encarar de frente.
+Por influência de seu bisavô, um disseminador de sementes crioulas e um profundo conhecedor de plantas comestíveis, Lucas passou a resgatar e demostrar na prática para toda sua família que viver da terra seria possível e que alimentos saudáveis deveriam fazer parte da cultura local. Foi nesse momento que, juntamente com sua esposa, incentivaram a feira da agricultura familiar em Florestal.
 
-![]({{ site.baseurl }}/images/vistaalegre1.png)
+![]({{ site.baseurl }}/images/florestal1.png)
 
 
-![]({{ site.baseurl }}/images/vistaalegre2.png)
+![]({{ site.baseurl }}/images/florestal2.png)
 
   
 Os dois contam com o suporte dos demais membros da família e da CSA Nossa Horta para seguir aprimorando as técnicas de plantio, melhorando a qualidade do solo, diversificando as espécies cultivadas, plantando árvores e enviando, semanalmente, as cestas para os coprodutores da CSA Nossa Horta.
   
-![]({{ site.baseurl }}/images/vistaalegre3.png)
+![]({{ site.baseurl }}/images/florestal3.png)
   
 
-![]({{ site.baseurl }}/images/vistaalegre4.png)
+![]({{ site.baseurl }}/images/florestal4.png)

@@ -26,7 +26,6 @@ A **CSA - Comunidade que Sustenta a Agricultura** - é uma iniciativa civil de *
 Na **CSA Nossa Horta**, conteúdo das cestas é selecionado pelo agricultor e é composto por: **folhosas, legumes, raízes, ervas/temperos** e **PANCs** (plantas alimentícias não convencionais). 
   
 ![]({{ site.baseurl }}/images/exemplos-cestas.png)
-
 ##### Alguns exemplos de cestas já montadas pelos nossos produtores
 <br>
 O coprodutor pode optar por receber entre dois tamanhos de cesta em troca de uma contribuição mensal, como detalhado a seguir:
