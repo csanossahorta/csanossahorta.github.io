@@ -785,7 +785,15 @@ hr{
     text-align:center;
     color: white;
     vertical-align: middle;
+    padding-top: 1vh;
+    height: 5vh;
 }
+
+#footer a{
+    color: white !important;
+    font-weight: 800;
+}
+
 footer {
     background: url('../images/background-orange.png') 100% 100px repeat-y fixed;
     -webkit-background-size: cover;
@@ -1083,6 +1091,7 @@ footer {
   padding: 0% 4% !important;
   text-align: center !important;
   min-width: 25% !important;
+  vertical-align: middle !important;
 }
 
 .column_logo img {
