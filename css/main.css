@@ -454,6 +454,83 @@ hr{
 }
 
 /*---------------------------------------
+    Como funcionamos page             
+-----------------------------------------*/
+
+.agricultor {
+    width: 100%;
+    height: 700px;
+    background-repeat: repeat-y;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+#como-funcionamos {
+    width: 70%;
+    padding-left: 15%;
+    font-size: 28px;
+    background-repeat: repeat-y;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+#como-funcionamos  p {
+    width: 90%;
+}
+
+#como-funcionamos  img {
+    width:70%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+}
+
+#como-funcionamos  .h2 {
+    text-align: center !important;
+    font-size: 28px;
+    line-height: 29px;
+    font-size: 36px !important;
+    left: 5%;
+    display: block;
+}
+
+#como-funcionamos  h4 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 29px;
+    font-size: 26px !important;
+    left: 5%;
+    color: white !important;
+    padding-top: 35%;
+    padding-left: 40%;
+}
+
+#como-funcionamos  h1 {
+    width: 90%;
+    font-size: 18px;
+    line-height: 29px;
+    font-size: 30px !important;
+    left: 5%;
+    letter-spacing: 5px;
+    color: #E25D25 !important;
+    display: block;
+}
+
+.title-agricultor{
+    color: white !important;
+    padding-top: 35% !important;
+}
+
+
+/*---------------------------------------
     Contat section              
 -----------------------------------------*/
 #contato {
@@ -470,7 +547,7 @@ hr{
      -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-    height: 100vh;
+    height: 92vh;
     text-align: center;
 }
 
@@ -482,7 +559,7 @@ hr{
     height: 40%;
     width: 50%;
     position: absolute;
-    left: 30%;
+    left: 25%;
     top: 35%;
     background: white;
     border-radius: 2px;
