@@ -1,0 +1,24 @@
+# Logos | Parceiros
+- name: Gerdau
+  column: 1
+  order: 1
+  logo: logo_gerdau
+  url: http://www.mmgerdau.org.br/
+  
+- name: Odara
+  column: 1
+  order: 2
+  logo: logo_odara
+  url: http://www.mmgerdau.org.br/
+  
+- name: Dynamic
+  column: 1
+  order: 3
+  logo: logo_dynamic
+  url: http://www.mmgerdau.org.br/
+  
+- name: Fugiat
+  column: 1
+  order: 4
+  logo: logo_fugiat
+  url: http://www.mmgerdau.org.br/

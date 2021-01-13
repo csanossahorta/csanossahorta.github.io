@@ -1063,12 +1063,13 @@ footer {
   max-width: 325% !important;
   padding: 0% 4% !important;
   text-align: center !important;
+  min-width: 30%;
 }
 
 .column_img img {
   margin-bottom: 20% !important;
   vertical-align: middle !important;
-  width: 10% !important;
+  width: 15% !important;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1076,17 +1077,22 @@ footer {
 }
 
 .column_logo {
-  width: 25% !important;
+  -ms-flex: 20% !important; /* IE10 */
+  flex: 20% !important;
+  max-width: 325% !important;
+  padding: 0% 4% !important;
+  text-align: center !important;
+  min-width: 25% !important;
 }
 
 .column_logo img {
   margin-bottom: 20% !important;
   vertical-align: middle !important;
-  width: 80% !important;
+  height: 10% !important;
   display: block;
+  padding-bottom: 0px !important;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0px !important;
 }
 
 

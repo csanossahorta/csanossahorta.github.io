@@ -50,7 +50,6 @@
 		<div class="row">
 
             <h1>Uma nova forma de economia em uma atuação conjunta entre agricultores e consumidores. </h1>
-            <br><br><br>
 		</div>
 	</div>
 </section>
@@ -79,43 +78,19 @@
             <h3>Porque participar?</h3>
 		</div>
         <br><br><br>
-        <div class="row_img">
-                 <div class="column_img">
-                            <img src="/images/coracao.png">
-                            <h4>Para cuidar da sua saúde</h4>
-                            <p>Receba alimentos da estação, cultivados por agricultores locais, sem a utilização de agrotóxicos ou fertilizantes químicos.</p>
+                    
+            <div class="row_img">
+                {% for i in (1..3) %}
+                    {% assign item = site.data.porque-participar | where: 'column', i | sort: 'order' %}
+                    {% for cover in item %}
+                 <div class="column_img"> 
+                            <img src="/images/{{ cover.icon }}.png">
+                            <h4>{{ cover.title }}</h4>
+                            <p>{{ cover.text }}</p>
+                            <br><br><br>
                  </div>
-                 <div class="column_img">
-                            <img src="/images/coracao.png">
-                            <h4>Para cuidar da sua saúde</h4>
-                            <p>Receba alimentos da estação, cultivados por agricultores locais, sem a utilização de agrotóxicos ou fertilizantes químicos.</p>
-                 </div>
-                 <div class="column_img">
-                            <img src="/images/coracao.png">
-                            <h4>Para cuidar da sua saúde</h4>
-                            <p>Receba alimentos da estação, cultivados por agricultores locais, sem a utilização de agrotóxicos ou fertilizantes químicos.</p>
-                 </div>
-        </div>
-        
-        <br><br><br>
-        <div class="row_img">
-                 <div class="column_img">
-                            <img src="/images/coracao.png">
-                            <h4>Para cuidar da sua saúde</h4>
-                            <p>Receba alimentos da estação, cultivados por agricultores locais, sem a utilização de agrotóxicos ou fertilizantes químicos.</p>
-                 </div>
-                     <br><br><br>
-                 <div class="column_img">
-                            <img src="/images/coracao.png">
-                            <h4>Para cuidar da sua saúde</h4>
-                            <p>Receba alimentos da estação, cultivados por agricultores locais, sem a utilização de agrotóxicos ou fertilizantes químicos.</p>
-                 </div>
-                     <br><br><br>
-                 <div class="column_img">
-                            <img src="/images/coracao.png">
-                            <h4>Para cuidar da sua saúde</h4>
-                            <p>Receba alimentos da estação, cultivados por agricultores locais, sem a utilização de agrotóxicos ou fertilizantes químicos.</p>
-                 </div>
+                    {% endfor %}
+                {% endfor %}
         </div>
 	</div>
 </section>
@@ -217,19 +192,17 @@
 		</div>
         
         <br><br><br>
-        <div class="row_img">
-                 <div class="column_logo">
-                            <img src="/images/coracao.png">
+                    
+            <div class="row_img">
+                {% for i in (1..3) %}
+                    {% assign item = site.data.parceiros | where: 'column', i | sort: 'order' %}
+                    {% for cover in item %}
+                 <div class="column_logo"> 
+                     <a href="{{ cover.url }}"  target="_blank"><img src="/images/{{ cover.logo }}.png"></a>
+                     <br><br><br>
                  </div>
-                 <div class="column_logo">
-                            <img src="/images/coracao.png">
-                 </div>
-                 <div class="column_logo">
-                            <img src="/images/coracao.png">
-                 </div>
-                 <div class="column_logo">
-                            <img src="/images/coracao.png">
-                 </div>
+                    {% endfor %}
+                {% endfor %}
         </div>
         <br><br><br>
 	</div>

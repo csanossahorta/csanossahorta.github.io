@@ -1,0 +1,44 @@
+# fotos de capa
+- indice: 1
+  column: 1
+  order: 1
+  icon: coracao
+  title: Para cuidar da sua saúde
+  text: Receba alimentos da estação, cultivados por agricultores locais, sem a utilização de agrotóxicos ou fertilizantes químicos.
+  
+- indice: 2
+  column: 1
+  order: 2
+  icon: digital
+  title: Para cuidar da sua saúde
+  text: Saiba de onde vem cada produto, como foram cultivados e por quem. Esteja em contato direto com quem produz seu alimento.
+  
+- indice: 3
+  column: 1
+  order: 3
+  icon: etiqueta
+  title: Para praticar preços justos
+  text: Sem intermediários, podemos praticar valores justos tanto para quem consome quanto para quem produz.
+  
+- indice: 4
+  column: 2
+  order: 1
+  icon: folha
+  title: Para promover a agroecologia
+  text: Incentivamos o cultivo em sistemas agroflorestais e responsável tanto com o meio ambiente quanto  com as comunidades envolvidas.
+
+- indice: 5
+  column: 2
+  order: 2
+  icon: folha
+  title: Para apoiar o pequeno produtor local
+  text: A Nossa Horta promove o trabalho de produtores familiares da região, que por sua vez apoiam o trabalho rural da comunidade aonde atuam.
+  
+- indice: 6
+  column: 2
+  order: 3
+  icon: colab
+  title: Para construir coletivamente
+  text: A CSA Nossa Horta e uma organização autogerida por seus próprios membros e as decisões importantes são tomadas por meio de reuniões e assembléias abertas.
+
+
