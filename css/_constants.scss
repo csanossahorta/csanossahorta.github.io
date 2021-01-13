@@ -1,0 +1,37 @@
+$bege: #F6F6E3;
+$laranja: #E25D25;
+$musgo: #616129;
+
+$MOBILE: 600px;
+
+$FAMILY-SANS-TITLE: 'Kreon', 'Courier New', 'Lucida Sans Typewriter', monospace;
+
+$FAMILY-SANS-TEXT: 'Source Code Pro', 'Courier New', 'Lucida Sans Typewriter', monospace;
+
+$TEXT-BASE: rgba(0,0,0,1);
+$TITLE-COLOR: lighten($TEXT-BASE, 10%);
+$TEXT-COLOR: lighten($TEXT-BASE, 20%); 
+
+$LINK-COLOR: $TITLE-COLOR;
+$LINK-COLOR-VISITED: $LINK-COLOR;
+$LINK-COLOR-HOVER: lighten($LINK-COLOR, 40%); 
+
+$TITLE-SIZE: 25px;
+$TEXT-SIZE: 0em;
+$LINK-SIZE: 1.1vw;
+
+$MENU-BACKGROUND-COLOR: #fffaff;
+$MENU-TEXT-COLOR: rgba(40,40,40,1);
+$MENU-TEXT-HOVER-COLOR: $PALETTE5;
+$MENU-LETTER-SPACING: 0.4px;
+$MENU-LINE-HEIGHT: 2.5;
+
+$MENU-TITLE-SIZE: 1.2rem;
+$MENU-SUBTITLE-SIZE: 1.1rem;
+$MENU-ITEM-SIZE: 1.1rem;
+
+$MENU-WIDTH: 350px;
+$MENU-ITEM-SPACING: 7px;
+
+$TRANSITION-PERIOD: 0.4s;
+$RESPONSIVE-SPACING: 2vw;

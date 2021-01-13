@@ -1,0 +1,35 @@
+# Site
+title: CSA - Nossa Horta
+
+# URL
+url: http://csanossahorta.org
+baseurl: ''
+
+# default url for pages/posts
+permalink: :title/
+
+# site directory structure specifications | arquivos temporários de css no mesmo diretório
+include: ['_pages']
+sass:
+  sass_dir: css
+
+# Build settings
+markdown: kramdown
+port: 4323
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "index"
+
+# Data
+ 
+social:
+  facebook: "https://twitter.com/sara_lana_"
+  instagram: "https://www.instagram.com/inumerosprimos"
+  envelope-o: "mailto:csa@csanossahorta.org"
+  

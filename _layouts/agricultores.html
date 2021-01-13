@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+    {% include meta.html %}
+</head>
+    
+<body>
+
+    {% include navbar.html %}
+
+<!-- =========================
+    INTRO SECTION   
+============================== -->
+<section class="agricultor" style="background-image: url('{{ site.baseurl }}/{{ page.cover }}');"> 
+    <div class="title-agricultor">
+        <h2>{{ page.title }}</h2>
+        <br>
+        <h4>{{ page.where }}</h4>
+    </div>
+</section>
+
+
+<!-- =========================
+    OVERVIEW SECTION   
+============================== -->
+<section id="agricultor" class="parallax-section">
+	<div class="container">
+    <br>
+    {{ content }}
+    <p>Veja mais sobre o {{ page.title }} e {{ page.where }} nas redes sociais:</p>
+    <a class="menu-item social" href="{{ page.instagram }}" target="_blank">
+      <i class="fa fa-instagram fa-1_5x" aria-hidden="true"></i>
+    </a>
+    <a class="menu-item social" href="{{ page.facebook }}" target="_blank">
+      <i class="fa fa-facebook fa-1_5x" aria-hidden="true"></i>
+    </a>
+    <br> 
+    <br>
+        
+	</div>
+</section>
+    
+
+<!-- =========================
+    FOOTER SECTION   
+============================== -->
+
+    {% include footer.html %}
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
