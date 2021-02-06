@@ -141,6 +141,21 @@ a {
 }
 
 
+#social .fa {
+      font-size: 25px !important;
+      padding: 12px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #E25D25!important;
+      color: #F6F6E3 !important;
+}
+#social .fa:hover {
+      color: #616129 !important;
+}
+
 /*---------------------------------------
     General               
 -----------------------------------------*/
