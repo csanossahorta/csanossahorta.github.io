@@ -85,6 +85,6 @@ Clique [aqui]({{ site.baseurl }}/index) para saber mais sobre os estágios de pr
  <br> 
 A **CSA Nossa Horta** organiza eventos para que os coprodutores visitem regularmente os produtores em suas áreas de plantio. **O Mãos às Horta é momento de confraternização, uma oportunidade de conhecer o local e métodos de trabalho, bem como colaborar diretamente com a produção nas hortas.**
 
-![]({{ site.baseurl }}/images/maos-a-horta.png)
+<img src="/images/maos-a-horta.png" style="width:100%">
 ##### Mãos à Horta na Fazenda Vista Alegre
 

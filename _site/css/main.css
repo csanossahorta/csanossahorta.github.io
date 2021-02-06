@@ -831,10 +831,11 @@ hr{
 }
 
 footer {
-    background: url('../images/background-orange.png') 100% 100px repeat-y fixed;
+    background: url('../images/bg-g.png');
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: auto;
     color: #ffffff;
+    background-color: #70703e;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -1206,7 +1207,7 @@ footer {
   display: none;
   position: absolute;
   margin-left: 30px;
-  margin-top: 10px;
+  margin-top: 1px;
   background-color: #f9f9f9;
   min-width: 160px;
   border-radius: 5px;
