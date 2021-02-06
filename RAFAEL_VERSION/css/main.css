@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Quenda";
+    src: url("/fonts/quenda-medium-webfont.woff") format("woff");
+
+
+    }
+
+.navbar-nav .nav-link {
+    padding-left: 5.5rem !important;
+}
+
+
+
+
+.text-gray {
+    color: #616129;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.text-icons {
+    color: #505D68;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-vermelho{
+    color: #E25D25 !important;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/img/header_pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .edson {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/img/Edson_FPinto.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .edson-pic{
+      width: 520px;
+  }
+
+  .lucas-m {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/img/lucas-m.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .lucas-m-pic{
+      width: 520px;
+  }
+
+  .lucas-s {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/img/lucas-s1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .lucas-s-pic{
+      width: 520px;
+  }
+
+
+  .p-produtores{
+      margin: 0 auto;
+  }
+
+  .como {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/img/como.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .cesta-pic{
+    width: 360px;
+    height: 639px;
+
+}
+
+    .valor-pic{
+        width: 625px;
+        height: 532px;
+    }
+
+  h1, h2, h3,a {
+      font-family: Quenda;
+  }
+
+
+  .button-header{
+      margin-top: 4%;
+      height: 86px;
+      width: 336px;
+      text-align: center;
+      padding-top: 28px;
+      background-color: #E25D25;
+      border-radius: 5px;
+      border: none;
+      font-size: 21px;
+  }
+
+  .button-header2{
+    margin-top: 4% !important;
+}
+ 
+  .bg-cont{
+      background: #F6F7E3;
+  }
+
+  .bg-orange{
+    background: #E25D25;
+    min-height: 348px;
+}
+
+    .bg-mais{
+
+        min-height: 340px;
+        background: url("/img/bg-g.png") #eb6a41;
+        /*
+        background: url("/img/CSA_padrao_site.svg");
+        background-color:#E25D25;
+        background-repeat: repeat;
+        */
+    }
+
+    .p-btn{
+        margin-top: 7%;
+    }
+
+    .tit-produtores{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+  .center{
+      margin: 0 auto;
+      display: block;
+  }
+
+  .titulos{
+      margin-bottom: 30px;
+      font-size: 46px;
+      margin-top: 40px;
+  }
+
+  .icones{
+      margin-bottom: 45px;
+      height: 40px;
+  }
+
+  .form-group {
+    margin-bottom: 80px;
+}
+
+.produtores{
+
+   max-width: 123px;
+    border-radius: 50%;
+}
+
+
+.fala{
+    background: url("/img/bg-v.png") #737041;
+    height: 304px;;
+}
+
+hr.style1{
+    border-top: 1px solid #C2D1D9;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.bd-direito{
+    border-right: 1px solid #C2D1D9;
+
+}
+
+.opa-15{
+    /* opacity: .85; */
+}
+
+/* MAP */
+
+.map-container{
+    overflow:hidden;
+    /* padding-bottom:56.25%; */
+    position:relative;
+    height:550px;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:550px;
+    width:100%;
+    position:absolute;
+    }
+
+.i4ewOd-pzNkMb-haAclf {
+    display: none !important;
+}
+
+
+.social{
+    margin-right: 70px; 
+}
+
+#foot {
+    padding-top: 1%;
+    bottom: 0;
+    background-color:#E25D25;
+    font-size: 12px;
+    /* padding: 1em; */
+    width: 100%;
+    height: 54px;
+    /* cursor: pointer; */
+}
+
+.alinha-foot{
+    margin-left: 70px;
+}
+
+#voltar-topo {
+    padding-top: 1%;
+    bottom: 0;
+    background-color:#E25D25;
+    font-size: 12px;
+    /* padding: 1em; */
+    width: 100%;
+    height: 54px;
+    /* cursor: pointer; */
+}
+
+
+/* TESTIMONIAL */
+
+.p-testimonial{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.p-quem{
+    font-size: 16px;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+  

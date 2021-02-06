@@ -66,7 +66,7 @@ p {
   font-family: 'Open Sans', 'Courier New', 'Lucida Sans Typewriter', monospace;
   font-size: 1.5rem;
   letter-spacing: 0.4px;
-  color: #616129;
+  color: #505D68;
   line-height: 20px;
   display: block;
 }
@@ -148,6 +148,10 @@ a {
     text-align: center !important;
 }
 
+.container{
+    width: 70% !important;
+}
+
 .logo{
     width: 60%;
 }
@@ -189,7 +193,7 @@ hr{
     width: 80% !important;
     top: 100% !important;
     bottom: 0% !important;
-    border: 0.5px solid #616129 !important;
+    border: 1% solid #616129 !important;
 }
 
 .btn {
@@ -461,7 +465,6 @@ hr{
 -----------------------------------------*/
 
 .agricultor {
-    width: 100%;
     height: 700px;
     background-repeat: repeat-y;
     background-attachment: fixed; 
@@ -471,8 +474,7 @@ hr{
 }
 
 #como-funcionamos {
-    width: 70%;
-    padding-left: 15%;
+    width: 100%;
     font-size: 28px;
     background-repeat: repeat-y;
     background-attachment: fixed; 
@@ -482,11 +484,12 @@ hr{
 }
 
 #como-funcionamos  p {
-    width: 90%;
+    width: 100%;
+    color: #616129 !important;
 }
 
 #como-funcionamos  img {
-    width:70%;
+    width:100%;
     padding-bottom: 30px;
     padding-top: 30px;
   display: block;
@@ -506,7 +509,7 @@ hr{
 }
 
 #como-funcionamos  h4 {
-    width: 80%;
+    width: 100%;
     text-align: center;
     font-size: 28px;
     line-height: 29px;
@@ -659,8 +662,6 @@ hr{
 }
 
 #agricultor {
-    width: 70%;
-    padding-left: 15%;
     font-size: 28px;
     background-repeat: repeat-y;
     background-attachment: fixed; 
@@ -670,7 +671,8 @@ hr{
 }
 
 #agricultor  p {
-    width: 90%;
+    width: 100%;
+    color: #616129 !important;
 }
 
 #agricultor  img {
@@ -700,7 +702,7 @@ hr{
 }
 
 #agricultor  h1 {
-    width: 90%;
+    width: 100%;
     font-size: 18px;
     line-height: 29px;
     font-size: 30px !important;
@@ -1203,8 +1205,11 @@ footer {
 .dropdown-content {
   display: none;
   position: absolute;
+  margin-left: 30px;
+  margin-top: 10px;
   background-color: #f9f9f9;
   min-width: 160px;
+  border-radius: 5px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
