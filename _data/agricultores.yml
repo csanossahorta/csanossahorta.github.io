@@ -2,18 +2,18 @@
 - name: Edson Pinto
   column: 1
   order: 1
-  retrato: retrato_edson
+  retrato: logo_edson
   url: edson
   
 - name: Lucas Souza
   column: 1
   order: 2
-  retrato: retrato_lsouza
+  retrato: logo_florestal
   url: lucas-souza
   
 - name: Lucas Machado
   column: 1
   order: 3
-  retrato: retrato_lmachado
+  retrato: logo_vista_alegre
   url: lucas-machado
  
