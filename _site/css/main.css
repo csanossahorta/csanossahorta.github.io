@@ -208,7 +208,9 @@ hr{
     width: 80% !important;
     top: 100% !important;
     bottom: 0% !important;
-    border: 1% solid #616129 !important;
+    border: 1px solid #616129 !important;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .btn {
@@ -1167,14 +1169,9 @@ footer {
 }    
     
 .column_logo img {
-  margin-bottom: 20% !important;
   vertical-align: middle !important;
   display: block;
-  padding-bottom: 0px !important;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-  vertical-align: center;
 }
 
 
@@ -1196,7 +1193,7 @@ footer {
 
 
 #map {
-  width: 100% !important;
+  width: 99% !important;
 }
 
 /* --------- DROPDOWN MENU ----------*/

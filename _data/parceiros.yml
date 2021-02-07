@@ -1,13 +1,13 @@
 # Logos | Parceiros
 - name: Gerdau
   column: 1
-  order: 1
+  order: 2
   logo: logo_gerdau
   url: http://www.mmgerdau.org.br/
   
 - name: Odara
   column: 1
-  order: 2
+  order: 1
   logo: logo_odara
   url: http://www.mmgerdau.org.br/
   
