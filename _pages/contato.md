@@ -1,6 +1,6 @@
 ---
 title: Contato
-permalink: 'CONTATO'
+permalink: contato
 menu: true
 email: csa@csanossahorta.com
 whatsapp: 31 99979 8679
