@@ -36,14 +36,61 @@ $MENU-ITEM-SPACING: 7px;
 $TRANSITION-PERIOD: 0.4s;
 $RESPONSIVE-SPACING: 2vw;
 
+@font-face {
+}
+@font-face {
+    font-family: 'Quenda';
+    src: url('../css/fonts/quenda-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/aller.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/aller-light.woff') format('woff');
+    font-weight: thin;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/AllerDisplay.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/Aller_Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/Aller_It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/Aller_LtIt.woff') format('woff');
+    font-weight: thin;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/Aller_BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
 
-
-body {
+.body {
   background-color: #F6F6E3;
   display: flex;
   flex-direction: row;
-  font-family: 'Open Sans', 'Courier New', 'Lucida Sans Typewriter', monospace;
-  font-size: 1.1rem;
+  font-family: 'Aller', 'Open Sans', 'Courier New', 'Lucida Sans Typewriter', monospace;
+  font-size: 1.5rem;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -54,8 +101,8 @@ body {
     Typorgraphy              
 -----------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Kreon', 'Courier New', 'Lucida Sans Typewriter', monospace;
-  font-weight: 500;
+  font-family: 'Quenda', 'Kreon', 'Courier New', 'Lucida Sans Typewriter', monospace;
+  font-weight: bold;
 }
 
 h3,h5 {
@@ -63,12 +110,14 @@ h3,h5 {
 }
 
 p {
-  font-family: 'Open Sans', 'Courier New', 'Lucida Sans Typewriter', monospace;
-  font-size: 1.5rem;
+  font-family: 'Aller', 'Open Sans', 'Courier New', 'Lucida Sans Typewriter', monospace;
+  font-size: 2.0rem;
   letter-spacing: 0.4px;
   color: #505D68;
-  line-height: 20px;
+  line-height: 32px;
   display: block;
+  font-weight: thin;
+  font-style: normal;
 }
 
 ::marker {
@@ -125,14 +174,26 @@ h3 {
 }
 
 .h4, h4 {
-    font-size: 18px;
+    font-family: 'Aller', monospace;
+    font-size: 20px;
     text-align: center;
+    letter-spacing: 1px;
 }
 h5 {
     letter-spacing: 1px;
     padding-top: -10px;
     text-align: center !important;
     color: #E25D25;
+}
+
+h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 51px;
+    text-align: center !important;
+    color: white;
+    letter-spacing: 3px;
 }
 
 a {
@@ -168,7 +229,7 @@ a {
 }
 
 .logo{
-    width: 60%;
+    width: 65%;
 }
 
 .section-title {
@@ -214,6 +275,7 @@ hr{
 }
 
 .btn {
+    font-family: 'Aller', monospace;
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 0px;
@@ -317,6 +379,10 @@ hr{
 /*---------------------------------------
     Navigation Links section              
 -----------------------------------------*/
+.topo {
+    width: 95%;
+    margin: auto;
+}
 .custom-navbar {
     margin-bottom: 0;
     background-color: #616129;
@@ -344,8 +410,8 @@ hr{
 .custom-navbar .nav li a {
     color: #F6F7E3;
     font-size: 15px;
-    font-family: 'Kreon', 'Courier New', 'Lucida Sans Typewriter', monospace;
-    font-weight: 700;
+    font-family: 'Quenda', 'Kreon', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    font-weight: normal;
     letter-spacing: 0.8px;
     text-transform: uppercase;
     line-height: 20px;
@@ -361,8 +427,8 @@ hr{
     padding-right: 35px;
     color: #F6F7E3;
     font-size: 15px !important;
-    font-family: 'Kreon', 'Courier New', 'Lucida Sans Typewriter', monospace;
-    font-weight: 700;
+    font-family: 'Quenda', 'Kreon', 'Courier New', 'Lucida Sans Typewriter', monospace;
+    font-weight: normal;
     letter-spacing: 0.8px;
     text-transform: uppercase;
     line-height: 20px;
@@ -455,6 +521,14 @@ hr{
 #overview h4 {
     color: #616129;
 }
+
+#overview p {
+    font-size: 1.4rem;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+
 /*---------------------------------------
     Detail section              
 -----------------------------------------*/
@@ -724,14 +798,13 @@ hr{
     line-height: 29px;
     font-size: 30px !important;
     left: 5%;
-    letter-spacing: 5px;
     color: #E25D25 !important;
     display: block;
 }
 
 .title-agricultor{
     color: white !important;
-    padding-top: 35% !important;
+    padding-top: 25% !important;
 }
 #program h3 {
   margin-top: 16px;

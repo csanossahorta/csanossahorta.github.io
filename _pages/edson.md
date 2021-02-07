@@ -10,7 +10,7 @@ facebook:
 
 # Agricultura familiar, de geração em geração.
     
-<br><br><br><br><br><br>
+<br><br>
     
 Ravena, Sabará, é o distrito onde fica a Horta Fazendo Pinto, onde o Edson e  saem os produtos que fazem parte das cestas semanais da CSA.
   
