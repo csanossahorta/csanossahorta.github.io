@@ -587,6 +587,7 @@ hr{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+    max-height: 70%;
     
 }
 
@@ -616,7 +617,7 @@ hr{
     text-align: center;
     font-size: 28px;
     line-height: 29px;
-    font-size: 10px !important;
+    font-size: 15px !important;
     left: 5%;
     color:#E25D25 !important;
     margin-top: 0px !important;
