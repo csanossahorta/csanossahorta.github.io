@@ -19,7 +19,8 @@ A **CSA - Comunidade que Sustenta a Agricultura** - é uma iniciativa civil de *
 ---
 
 <br> 
-    
+
+<div id="cestas"></div>
 # Nossas cestas e valores de contribuição 
  <br> 
     
@@ -60,7 +61,7 @@ Para compensar os meses com 5 sábados, quando há portanto a entrega de 5 cesta
 
 <br>
   
-    
+<div id="estagios"></div>
 # Estágios de Produção
   <br>
   
@@ -80,7 +81,7 @@ Clique [aqui]({{ site.baseurl }}/index) para saber mais sobre os estágios de pr
 
 <br>
   
-    
+<div id="maos"></div>    
 # Mãos à Horta
  <br> 
 A **CSA Nossa Horta** organiza eventos para que os coprodutores visitem regularmente os produtores em suas áreas de plantio. **O Mãos às Horta é momento de confraternização, uma oportunidade de conhecer o local e métodos de trabalho, bem como colaborar diretamente com a produção nas hortas.**

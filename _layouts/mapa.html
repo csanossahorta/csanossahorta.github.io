@@ -54,8 +54,8 @@
     var map = new mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/saralgc/ckkv1hkzh0b4817qa5ahw9ged',
-      center: [-44.542976, -22.393782], // starting position
-      zoom: 14,// starting zoom
+      center: [-44, -19.8], // starting position
+      zoom: 11,// starting zoom
       transformRequest: transformRequest
     });
 
@@ -64,7 +64,7 @@
         type: "GET",
         //YOUR TURN: Replace with csv export link
         //https://www.mapbox.com/impact-tools/sheet-mapper
-        url: 'https://docs.google.com/spreadsheets/d/14uzofB5ax8jGVoI6ox5y8JAk3e0t_HrwhfzlGcs8FBE/gviz/tq?tqx=out:csv&sheet=Sheet1',
+        url: 'https://docs.google.com/spreadsheets/d/1f15IbcbSR1wFMjXoQTdnZvOrtv_HdWKR-iJX0yj572c/gviz/tq?tqx=out:csv&sheet=Sheet1',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
@@ -90,7 +90,8 @@
               },
               'paint': {
                 'circle-radius': 9,
-                'circle-color': "#616129",
+                //'circle-color': "#616129",
+                  'circle-color': "#E25D25",
               }
             });
 
@@ -110,8 +111,7 @@
               
               /*
               player archive.org */
-              //var description = `<h3>` + `<b>` + e.features[0].properties.Nome + `</b>` +`</h3>` + `<br>` + `<img src="` + e.features[0].properties.Imagem + `" style="width:100%">` +`<br>` + `<b>` + ` PRODUTOS` + `</b>` + `<h4>` + e.features[0].properties.Produtos + `</h4>` + `<br>`  + `<b>` + ` CONTATO` + `</b>` + `<h4>` + e.features[0].properties.Contato + `</h4>` ;
-              var description = `<img src="` + e.features[0].properties.Imagem + `" style="width:100%">`  ;
+              var description = `<h1>` + `<b>` + e.features[0].properties.Nome + `</b>` +`</h1>` +  `<b>` + e.features[0].properties.Sitio + `</b>` + `<br>`+  `<br>` + `<img src="{{ site.baseurl }}/images/` + e.features[0].properties.Imagem + `" style="width:100%">`  ;
               
               
                /*

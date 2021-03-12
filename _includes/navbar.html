@@ -19,6 +19,7 @@
     <div class="collapse navbar-collapse">
         
         <div class="nav navbar-nav navbar-right">
+            <a href="{{ site.baseurl }}/">HOME</a>
             <div  class="dropdown">
             <a> PRODUTORES <i class="fa fa-caret-down"></i></a>
                 <div class="dropdown-content">
@@ -29,7 +30,8 @@
             </div>
             <a href="{{ site.baseurl }}/como-funcionamos">COMO FUNCIONAMOS</a>
             <a href="{{ site.baseurl }}/contato">CONTATO</a>
-            <a href="htttps://google.com" class="btn" data-wow-delay="0.3s">INSCREVA-SE</a>
+            {% assign formularios = site.data.formulario %}
+            <a href="{{ formularios.form[1] }}" class="btn" data-wow-delay="0.3s">INSCREVA-SE</a>
         </div>
 
     </div>

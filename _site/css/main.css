@@ -197,7 +197,7 @@ h6 {
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
   outline: none;
 }
 
@@ -437,8 +437,12 @@ hr{
 
 .navbar-nav  a:hover {
   color: #E25D25;
+  text-decoration: none;
 }
-
+.navbar-nav  a:active {
+  text-decoration: underline !important;
+  color: blue;
+}
 .custom-navbar .nav li a:hover {
     background: transparent;
     color: #E25D25;
@@ -1201,11 +1205,30 @@ footer {
   text-align: center !important;
   min-width: 30%;
 }
+    
+.column_img_2 {
+  -ms-flex: 20% !important; /* IE10 */
+  flex: 20% !important;
+  max-width: 325% !important;
+  padding: 0% 4% !important;
+  text-align: center !important;
+  min-width: 30%;
+}
 
 .column_img img {
   margin-bottom: 20% !important;
   vertical-align: middle !important;
   width: 15% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px !important;
+}
+    
+.column_img_2 img {
+  margin-bottom: 20% !important;
+  vertical-align: middle !important;
+  width: 70% !important;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1261,8 +1284,8 @@ footer {
 .map iframe {
   width: 100% !important;
   height: 400px !important;
-  
-    border-width: 0px;
+  border-width: 3px;
+  border-color: #616129;
 }
 
 

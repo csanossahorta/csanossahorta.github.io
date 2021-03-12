@@ -1,19 +1,16 @@
 # Logos | Parceiros
 - name: Edson Pinto
-  column: 1
   order: 1
-  retrato: logo_edson
+  retrato: circle_edson
   url: edson
   
 - name: Lucas Souza
-  column: 1
   order: 2
-  retrato: logo_florestal
+  retrato: circle_lucas_souza
   url: lucas-souza
   
 - name: Lucas Machado
-  column: 1
   order: 3
-  retrato: logo_vista_alegre
+  retrato: circle_lucas_machado
   url: lucas-machado
  

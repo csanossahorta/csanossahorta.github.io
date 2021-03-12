@@ -1,3 +1,65 @@
+
+@font-face {
+}
+@font-face {
+    font-family: 'Quenda';
+    src: url('../css/fonts/quenda-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/aller.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/aller-light.woff') format('woff');
+    font-weight: thin;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/AllerDisplay.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/Aller_Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/Aller_It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/Aller_LtIt.woff') format('woff');
+    font-weight: thin;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('../css/fonts/Aller_BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.body {
+  font-family: 'Aller', 'Open Sans', 'Courier New', 'Lucida Sans Typewriter', monospace;
+}
+
+/*---------------------------------------
+    Typorgraphy              
+-----------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Quenda', 'Kreon', 'Courier New', 'Lucida Sans Typewriter', monospace;
+  font-weight: bold;
+}
+
 body {
       margin: 0;
       padding: 0;
@@ -23,17 +85,30 @@ body {
     .mapboxgl-popup-content {
       font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
       padding: 0;
-      width: 250px;
+      width: 200px;
+      background: white !important;
     }
 
     .mapboxgl-popup-content-wrapper {
       padding: 1%;
+        background: pink;
     }
 
     .mapboxgl-popup-content h3 {
+      background: #F6F6E3;
+      text-align: center;
+      color: #616129;
+      margin: 0;
+      display: block;
+      padding: 15px;
+      font-weight: 700;
+      margin-top: -5px;
+    }
+
+    .mapboxgl-popup-content{
       background: rgb(61, 59, 59);
       text-align: center;
-      color: #fff;
+      color: #616129;
       margin: 0;
       display: block;
       padding: 15px;
