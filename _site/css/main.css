@@ -224,14 +224,26 @@ a {
     text-align: center !important;
 }
 
-.container{
+
+
+
+@media(min-width:768px) {
+    .logo{
+        width:65%;
+    }
+    .container{
     width: 70% !important;
+    }
 }
-
-.logo{
-    width: 65%;
+@media(max-width:768px) {
+    .logo{
+        width:15%;
+    }
+     .container{
+    width: 90% !important;
+    }
 }
-
+    
 .section-title {
   margin-bottom: 32px;
 }
@@ -1195,7 +1207,13 @@ footer {
   padding: 0 4px !important;
   height: 100% !important;
 }
-
+@media (max-width: 760px) {
+  .column_img {
+  text-align: center !important;
+    }
+}  
+    
+    }
 /* Create four equal columns that sits next to each other */
 .column_img {
   -ms-flex: 20% !important; /* IE10 */
@@ -1222,6 +1240,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center !important;
   padding-bottom: 0px !important;
 }
     
@@ -1232,6 +1251,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center !important;
   padding-bottom: 0px !important;
 }
 
@@ -1271,6 +1291,18 @@ footer {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+    .column_logo {
+        flex: 20% !important;
+        max-width: 325% !important;
+        padding: 0% 2% !important;
+        text-align: center !important;
+        min-width: 22% !important;
+        vertical-align: middle !important;
+        display: inline-block;
+        width: 45%;
+    }
+}
 
 .column_agricultores img {
   margin-bottom: 20% !important;
