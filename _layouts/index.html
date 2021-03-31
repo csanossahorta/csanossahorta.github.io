@@ -133,7 +133,7 @@
                     {% assign item = site.data.agricultores | sort: 'order' %}
                     {% for cover in item %}
                  <div class="column_img_2"> 
-                            <img src="/images/{{ cover.retrato }}.png">
+                            <a href="{{ cover.url }}"><img src="/images/{{ cover.retrato }}.png"></a>
                             <h4>{{ cover.name }}</h4>
                             <br><br><br>
                  </div>
