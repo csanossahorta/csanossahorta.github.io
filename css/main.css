@@ -451,9 +451,19 @@ hr{
     letter-spacing: 0.8px;
     text-transform: uppercase;
     line-height: 20px;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;    
+    padding-bottom: 20px;
+    vertical-align: middle;
 }
-
+@media(max-width:768px) {
+.navbar-nav .dropdown{  
+    line-height: 20px;
+    padding-top: 25px;
+    padding-right: 35px; 
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+}
 .navbar-nav  a:hover {
   color: #E25D25;
   text-decoration: none;
