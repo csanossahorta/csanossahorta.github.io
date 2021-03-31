@@ -432,6 +432,7 @@ hr{
 
 .navbar-nav {
     padding-top: 25px;
+    display: grid;
 }
 
 .navbar-nav a{
