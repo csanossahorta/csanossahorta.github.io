@@ -1,16 +1,16 @@
 # Logos | Parceiros
 - name: Edson Pinto
   order: 1
-  retrato: circle_edson
+  retrato: circleedson
   url: edson
   
 - name: Lucas Souza
   order: 2
-  retrato: circle_lucas_souza
+  retrato: circlelucassouza
   url: lucas-souza
   
 - name: Lucas Machado
   order: 3
-  retrato: circle_lucas_machado
+  retrato: circlelucasmachado
   url: lucas-machado
  
