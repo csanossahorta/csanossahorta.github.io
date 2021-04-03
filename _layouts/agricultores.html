@@ -30,13 +30,17 @@
     <p>Veja mais sobre o {{ page.title }} e {{ page.where }} nas redes sociais:</p><br>
     <div class="center">
         <div id="social">
+            {% unless page.instagram == "" %}
             <a class="menu-item social" href="{{ page.instagram }}" target="_blank">
               <i class="fa fa-instagram fa-1_5x" aria-hidden="true"></i>
             </a>
             &nbsp;
+            {% endunless %}
+            {% unless page.facebook == "sem" %}
             <a class="menu-item social" href="{{ page.facebook }}" target="_blank">
               <i class="fa fa-facebook fa-1_5x" aria-hidden="true"></i>
             </a>
+            {% endunless %}
         </div>
     </div>
     <br> 

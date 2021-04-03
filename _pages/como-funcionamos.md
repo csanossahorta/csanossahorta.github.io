@@ -71,8 +71,6 @@ Trabalhamos com **3 Estágios de Produção** que contemplam critérios como: o 
 
 Ao mudar de estágio, o produtor recebe um retorno financeiro maior pela cestas, o que acarreta alterações no valor das mensalidades. **Mudanças de Estágios, bem como reajustes na mensalidades são sempre discutidos e aprovadas nas Assembléias da CSA Nossa Horta de forma participativa,** quando todos são chamados para opinar: coprodutores, gestores, e técnico agrícola. 
 
-Clique [aqui]({{ site.baseurl }}/index) para saber mais sobre os estágios de produção.
-
 
 
 <br>

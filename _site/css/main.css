@@ -213,9 +213,29 @@ a {
       background: #E25D25!important;
       color: #F6F6E3 !important;
 }
+
+
 #social .fa:hover {
       color: #616129 !important;
 }
+
+#social .foot .fa {
+      font-size: 20px !important;
+      padding: 7px;
+      width: 35px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #616129!important;
+      color: #F6F6E3 !important;
+}
+
+
+#social .foot .fa:hover {
+      color: #E25D25 !important;
+}
+
 
 /*---------------------------------------
     General               
@@ -938,7 +958,7 @@ hr{
 
 #footer {
     background-color: #E25D25;
-    height: 60px;
+    height: 55px;
     position: relative;
     bottom: 0px;
     width: 100%;
@@ -946,7 +966,6 @@ hr{
     color: white;
     vertical-align: middle;
     padding-top: 1vh;
-    height: 5vh;
 }
 
 #footer a{

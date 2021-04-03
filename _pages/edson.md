@@ -4,8 +4,8 @@ where: Horta Fazenda Pinto
 permalink: edson
 cover: images/edson.png
 layout: agricultores
-instagram: https://www.instagram.com/toninharoca/
-facebook:
+instagram: https://www.instagram.com/hortafazendadospintos/
+facebook: sem
 ---
 
 # Agricultura familiar, de geração em geração.
