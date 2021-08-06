@@ -1,10 +1,10 @@
 ---
-title: sara lana 
+title: CSA – Nossa Horta
 layout: 'index'
 permalink: '/'
 lang: pt
-cover: /assets/covers/especies-de-espacos-1.png
-type: projetos principais 
+cover: /images/logo_simples_laranja.png
+type: Somos uma comunidade que sustenta a agricultura
 ref: index
 ---
 
